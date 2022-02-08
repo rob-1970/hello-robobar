@@ -1,0 +1,1 @@
+{"uuid":"0299df61-053e-430c-b64b-93053f98ae0d","name":"colaTest()","children":["ccde502c-dc7f-4879-b456-61f11bff1b4b"],"befores":[{"name":"setupTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1644312521033,"stop":1644312522006}],"afters":[],"start":1644312520937,"stop":1644312522355}

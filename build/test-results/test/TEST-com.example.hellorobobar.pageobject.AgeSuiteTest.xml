@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.hellorobobar.pageobject.AgeSuiteTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-08T11:35:32" hostname="ubuntu" time="3.93">
+  <properties/>
+  <testcase name="adultBeer()" classname="com.example.hellorobobar.pageobject.AgeSuiteTest" time="2.005"/>
+  <testcase name="underageBeer()" classname="com.example.hellorobobar.pageobject.AgeSuiteTest" time="1.014"/>
+  <testcase name="underageCola()" classname="com.example.hellorobobar.pageobject.AgeSuiteTest" time="0.89"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 7303
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 08, 2022 12:35:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

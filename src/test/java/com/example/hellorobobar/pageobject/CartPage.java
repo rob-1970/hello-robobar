@@ -33,6 +33,9 @@ public class CartPage {
         PageFactory.initElements(driver, this);
     }
 
-    //public CheckoutPage checkOut
+    public CheckoutPage checkout(){
+        checkoutButton.click();
+        return new CheckoutPage(driver);
+    }
 
 }

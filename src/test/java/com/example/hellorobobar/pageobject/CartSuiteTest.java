@@ -44,10 +44,18 @@ public class CartSuiteTest {
         driver.quit();
     }
 
+    // TEST con las Colas
     @Test
     public void colaTest() {
         cartPage.addColaButton.click();
         assertEquals(cartPage.totalField.getText(), "€1.25");
     }
+
+    // AÑADIR las pruebas con mas unidades
+    // AÑADIR las pruebas con las cervezas y el vino
+    // AÑADIR las pruebas con mas unidades
+    // AÑADIR las pruebas con las cervezas y el vino
+    // AÑADIR las pruebas con mas unidades
+    // AÑADIR las pruebas con las cervezas y el vino
 
 }

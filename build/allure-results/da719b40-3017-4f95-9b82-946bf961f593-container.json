@@ -1,0 +1,1 @@
+{"uuid":"da719b40-3017-4f95-9b82-946bf961f593","name":"underageColaLight()","children":["1f0f256f-7998-42ac-8c4c-dc2d8b973214"],"befores":[{"name":"setupTest","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1644322192554,"stop":1644322193754}],"afters":[],"start":1644322192489,"stop":1644322194281}

@@ -46,6 +46,23 @@ public class AgeSuiteTest {
     }
 
     @Test
+    // 1x RobaCola = €1.25
+    // 2x RobaCola = €2.50
+    public void underageColaLight() {
+        cartPage.addColaButton.click();
+
+        // Comprobar que un elemento EXISTE
+        // CheckoutPage checkoutPage = cartPage.checkout();
+
+        assertThat(cartPage.totalField.getText(), is("€1.25"));
+        cartPage.addColaButton.click();
+        assertEquals(cartPage.totalField.getText(), "€2.50");
+        cartPage.checkoutButton.click();
+        checkoutPage.orderButton.click();
+        assertThat(orderPage.confirmationMessage.getText(), is("Coming right up! ~bzzzt~"));
+    }
+
+    @Test
     public void underageCola() {
         // Test name: UnderageCola
         // Step # | name | target | value
